@@ -1,0 +1,16 @@
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem 2rem 0.5rem 0;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    font-size: large;
+    color: aliceblue;
+    margin-left: 0.5rem;
+}

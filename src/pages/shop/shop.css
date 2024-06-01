@@ -1,0 +1,30 @@
+.shopTitle{
+    text-align: center;
+    color: black;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    margin: 3rem 6rem;
+}
+img{
+    width: 12em;
+}
+.description{
+    text-align: center;
+}
+.AddToCart{
+    outline: none;
+    border: 0;
+    border: 2px solid black;
+    background-color: aliceblue;
+    border-radius: 1em;
+    padding: 0.1em 0.7em;
+}
+.AddToCart:hover{
+
+}

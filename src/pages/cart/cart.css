@@ -1,0 +1,49 @@
+.cart h1{
+    text-align: center;
+}
+.cartItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+.cartItem{
+    width: 28em;
+    padding: 2em 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2em;
+    box-shadow: 0 0 5px 1px rgb(194, 192, 192);
+    border-radius: 0.8em;
+}
+.cartItems .description{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cartItem .description input{
+    width: 1.3em;
+    padding-left: 0.5em;
+    outline: 0;
+}
+.checkout{
+    text-align: center;
+}
+.checkout button{
+    border: 0;
+    border: 2px solid black;
+    background-color: black;
+    color: #fff;
+    margin-left: 0.3em;
+    border-radius: 0.3em;
+    padding: 0.2em 0.3em;
+}
+.ediat button{
+    border: 0;
+    border: 2px solid black;
+    padding: 0.1em 0.6em;
+    color: #fff;
+    background-color: black;
+    border-radius: 0.2em;
+}
